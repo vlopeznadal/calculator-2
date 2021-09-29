@@ -14,4 +14,8 @@ elif tokens[0] == '+':
 elif tokens[0] == '-':
     print(subtract(float(tokens[1]), float(tokens[2])))
 elif tokens[0] == '*':
-    print(multiply(float(tokens[1]),float(tokens[2])))  
+    print(multiply(float(tokens[1]),float(tokens[2])))
+elif tokens[0] == '/':
+    print(divide(float(tokens[1]),float(tokens[2]))) 
+elif tokens[0] == 'square':
+    print(square(float(tokens[1])))
