@@ -23,3 +23,5 @@ elif tokens[0] =='cube':
     print(cube(float(tokens[1])))
 elif tokens[0] == 'pow':
     print(power(float(tokens[1]), float(tokens[2])))
+elif tokens[0] == 'mod':
+    print(mod(float(tokens[1]), float(tokens[2])))
